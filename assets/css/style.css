@@ -20,6 +20,8 @@ body {
     margin-top: 20px;
     background-color: white;
     padding: 25px;
+    height: 100%;
+    font-size: 20px;
 
 
 }
@@ -123,9 +125,123 @@ body {
 
 .inlineImage {
     float:left;
-    width:120px;
-    height:100px;
+    width: 195px;
+    height:180px;
     padding-right:20px;
+}
+
+.portfolioImage{
+    width: 300px;
+    height: 193px;
+    padding: 15px;    
+}
+.portfolioImage2{
+    width: 300px;
+    height: 193px;
+    padding: 15px;    
+}
+.portfolioImage3{
+    width: 300px;
+    height: 193px;
+    padding: 15px; 
+}
+.portfolioImage4{
+    width: 300px;
+    height: 193px;
+    padding: 15px; 
+}
+.portfolioImage5{
+    width: 300px;
+    height: 193px;
+    padding: 15px; 
+}
+
+
+.flexcontainer{
+    display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 5px 0;
+        flex-wrap: wrap;
+}
+.clearfix{
+        content: "";
+        clear: both;
+       display: table;
+      
+}
+ .left-column{
+    flex-basis: 50%;
+    position: relative;
+}
+.right-column{
+    flex-basis: 50%; 
+    margin-bottom: 35%;
+} 
+.hangman{
+    position: absolute;
+    top: 19%;
+    left: 29%;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    font-size: x-large;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.rpgGame{
+    position: absolute;
+    bottom: 38%;
+    left: 25%;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    font-size: x-large;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 13px;
+}
+.triviaGame{
+    position: absolute;
+    bottom: 4%;
+    left: 23%;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    font-size: x-large;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 14px;
+}
+.infoWidget{
+    position: absolute;
+    top: 30.5%;
+    right: 46.5%;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    font-size: x-large;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.rockPaper{
+    position: absolute;
+    top: 51.8%;
+    right: 45.3%;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    font-size: large;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 14px;
 }
 
 .footer{
@@ -133,13 +249,13 @@ body {
     border-top-color:#4aaaa5;
     border-top-width: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
     color: white;
     background-color: #666666;
-    text-align:center;
+    text-align: center;
     padding-top: 30px;
     padding-bottom: 5px;
 }
